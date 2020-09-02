@@ -18,7 +18,7 @@ class Home extends Component {
 					<h2>History</h2>
 				</Paper>
 				<Paper className="card" onClick={() => this.handleClick('/payload')}>
-					<h2>Payload</h2>
+					<h2>Payload1</h2>
 				</Paper>
 			</div>
 		);
