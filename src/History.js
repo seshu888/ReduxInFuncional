@@ -89,7 +89,7 @@ class History extends Component {
 							<Table aria-label="simple table">
 								<TableHead className="tableHead">
 									<TableRow>
-										<TableCell align="center">Id</TableCell>
+										<TableCell align="center ">Id</TableCell>
 
 										<TableCell align="center">Title</TableCell>
 										<TableCell align="center">Date</TableCell>
@@ -100,7 +100,7 @@ class History extends Component {
 									{history &&
 										history.map((item, index) => (
 											<TableRow key={index}>
-												<TableCell align="center">{item.id}</TableCell>
+												<TableCell align="center" >{item.id}</TableCell>
 
 												<TableCell align="center">{item.title}</TableCell>
 												<TableCell align="center">
