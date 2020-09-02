@@ -1,0 +1,28 @@
+.homePage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.homePage .card {
+    padding: 30px 80px;
+    margin: 10px 30px; 
+    cursor: pointer;
+}
+.historyPage {
+    padding: 20px;
+}
+
+.tableHead {
+    background-color: black;
+    color: white !important;
+}
+.tableHead th {
+    color: white !important;
+}
+
+.payloadPage {
+    padding: 20px;
+}   
